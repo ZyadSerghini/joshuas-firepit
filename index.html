@@ -138,7 +138,7 @@
     <img src = "images/boom.gif" id = "boom">
     <h1 style="font-size:24px; margin-bottom:20px;">Josh's Radio</h1>
     <img src = "images/cover.jpg" class = "square">
-    <audio id="myAudio" src="images/peak.m4a" loop></audio>
+    <audio id="myAudio" src="audio/Nothing Left For Me - Seepage.m4a" loop></audio>
     <div class="scrolling-text"><p id="dislikes" style="font-size: 14px; padding-bottom:0px; padding-bottom:0px;" >Nothing Left for Me</p></div>
     <p id="likes" style="font-size: 11px; margin-top: 0px; padding-top:0px;">Seepage, queenjazz</p>
     <button id="playBtn">
@@ -167,6 +167,8 @@
         const audio = document.getElementById('myAudio');
         const pauseBtn = document.getElementById('pauseBtn');
         const playBtn = document.getElementById('playBtn');
+
+        audio.volume = 0.15; 
 
         pauseBtn.addEventListener('click', function() {
                 audio.pause();

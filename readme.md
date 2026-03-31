@@ -1,24 +1,28 @@
-# Joshua’s Firepit
-
-## Preview
+# 🔥 Joshua’s Firepit 🔥
 
 <p align="center">
-  <img src="./assets/page2.gif" alt="Joshua's Firepit Demo" width="700"/>
+  <img src="./assets/def.gif" alt="Joshua's Firepit Demo" width="700"/>
 </p>
 
-## Description
+## 📄 Description
 
-Joshua’s Firepit is an OSINT CTF challenge created for the WhiteOps x CLE event. It presents itself as a simple, old-school website, intentionally minimal and slightly unconventional in structure and design.
+Joshua’s Firepit is an OSINT CTF challenge created for the WhiteOps x CLE Halloween event. It presents itself as a simple, old-school website, intentionally minimal and slightly unconventional in structure and design.
 
-The objective is to analyze the content of the site, with particular attention to a specific image left by “Joshua.” By following the information embedded in or around that image, participants are expected to identify the exact real-world address where he is supposedly hiding.
+I made this challenge as a tribute to the indie web that is dear to my heart. Main inspiration was Hypnospace Outlaw (especially Zane's website).
 
-The final answer is not entered directly as text, but corresponds to a file. The challenge relies on observation, basic OSINT techniques, and careful inspection of available resources.
+## 🎯 Your objective
 
-## Usage
+"Joshua", a bratty teenager is out on Halloween with his friends causing trouble and playing tricks on everyone. Time for you to put him in their place and teach him a lesson.
 
-```bash
-git clone https://github.com/ZyadSerghini/joshuas-firepit.git
-cd joshuas-firepit
-```
+Find the exact address where he's hiding, that we'll show him what not to put publicly on the internet. There should be enough information on his blog for you to figure out.
 
-Open the files in a browser and begin investigating.
+## 🌟 Solution
+
+<details>
+    <summary>
+        <strong>Reveal solution</strong>
+    </summary><br>
+
+    142 PIERREPONT STREET
+    
+</details>
